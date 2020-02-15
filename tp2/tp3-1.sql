@@ -1,0 +1,1 @@
+alter table dep add nbetud number;
