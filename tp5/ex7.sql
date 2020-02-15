@@ -1,4 +1,4 @@
-create or replace trigger check_modification_salaire
+create or replace trigger verif_sal
     before insert or update on emp
     FOR EACH ROW
     v_salaire_bas exception;

@@ -11,6 +11,6 @@ begin
 
 exception
   when v_weekend_exception then
-    DBMS_OUTPUT.PUT_LINE('Jour ouvrable');
+    DBMS_OUTPUT.PUT_LINE('Vous ne pourrez faire des modification le weekend');
     ;
 end;
